@@ -1,0 +1,49 @@
+NÃO DEVE FAZER COMPARAÇÕES DE STRINGS COM "=="
+DEVE UTILIZAR ".equal"
+
+
+#OPERADORES RELACIONAIS
+
+
+== igualdade
+!= diferente
+> maior que
+< menor que
+>= maior ou igual que
+<= menor ou igual que
+
+resultados são sempre booleanos(True or False)
+
+
+#OPERADORES LÓGICOS
+
+
+AND(&&) = A e B tem que estar de acordo
+
+OR(||) = A ou B tem que estar de acordo
+
+NOT(!) = Diferente ( Ex: entrada -  A = 0 / saida B = 1
+
+NAND = AND + NOT (Ex : entrada de A = 1 / B = 0, a saida com só o AND seria 0, porém o NOT inverte, logo saida = 1)
+
+NOR = OR + NOT (Ex :entrada de A = 1 / B = 0, a saida com só o OR seria 1, porém o NOT inverte, logo saida = 0)
+
+XOR(^) - (ou exclusivo) = só uma entrada verdadeira(Ex:entrada A = 1 / B = 0, saida vai ser = 1, porque somente UMA das entradas é verdadeira
+
+
+resultados são sempre binários(0 = False or Negative)(1 = True or Positive)
+
+
+#OPERADORES DE INCREMENTO E DECREMENTO
+
+x++ = valor atual de x mais 1
+
+x-- = valor atual de x menos 1
+
+x+= = valor atual de x mais o numero que voce colocar depois do "+="
+
+x-= = valor atual de x mais  o numero que voce colocar depois do "-="
+
+#OPERADOR TERNÁRIO
+
+?: = If de uma linha(Ex:resultado = media >= 5 ? "Aprovado" : "Reprovado"

@@ -1,0 +1,41 @@
+Java - Aula 01 - 02/10/2024
+
+
+TIPOS DE DADOS PRIMITIVOS
+
+Tipo Inteiro = byte(1 byte) / short(2 bytes) / int(4 bytes) / long(8bytes)
+
+Tipo Real = float(4 bytes) - (6,7 casas depois da vírgula / double(8 bytes) - (14,15 casas depois da vírgula)
+
+Caractere = char(2 bytes) - (armazena uma unica letra. Ex:'A')
+
+Lógico = boolean(1 byte) - (true or false)
+
+
+
+
+
+
+MASCARAS DE SUBSTITUIÇÃO NO (PRINTF)
+
+%d = utilizado para tipos inteiros - byte, short, int e long
+%f = utilizado para tipos reais - float e double
+%c = utilizado para tipo caratere - char
+%b = utilizado para tipo lógico - boolean
+%s = Strings
+
+
+
+
+
+CLASSE WRAPPER
+
+Tipo primitivo		Empacotadora (Wrapper)		Argumentos suportados
+byte			Byte				byte or String
+short			Short				short or String
+int			Integer				int or String
+long			Long				long or String
+float			Float				float, double or String
+double			Double				double or String
+char			Character			char
+boolean			Boolean				boolean or String
