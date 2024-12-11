@@ -17,11 +17,11 @@ public class FizzBuzz {
         }
 
         else if (numero % 2 == 0) {
-            resultado = "BUZZ";
+            resultado = "FIZZ";
         }
 
         else if (numero % 5 == 0) {
-            resultado = "FIZZ";
+            resultado = "BUZZ";
         }
 
         else {
