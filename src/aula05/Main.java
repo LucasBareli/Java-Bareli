@@ -3,7 +3,7 @@ package aula05;
 public class Main {
     public static void main(String[] args) {
 
-        int valor = 3;
+        int valor = 1;
 
         switch (valor) {
             case 1 -> System.out.println("Caso 1");

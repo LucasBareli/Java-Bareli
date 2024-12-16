@@ -1,0 +1,3 @@
+Posso chamar direto na base. 
+
+Ou fazer um try catch
